@@ -5,9 +5,12 @@ module.exports = {
     extend: {
       colors: {
         primary: "#1064B1",
-        secondary: "#8BB2F7"
+        secondary: {
+          DEFAULT: "#8BB2F7",
+          dark: "#6298f5"
+        }
       },
-      letterSpacing:{
+      letterSpacing: {
         'more-wide': '8px'
       },
       zIndex: {
