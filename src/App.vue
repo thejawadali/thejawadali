@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import Navbar from "./components/Navbar.vue";
 import ProjectSection from "./components/Projects.vue";
+import Testimonials from "./components/Testimonials.vue";
+import Contact from "./components/Contact.vue";
 </script>
 
 <template>
@@ -54,6 +56,8 @@ import ProjectSection from "./components/Projects.vue";
       </div>
     </header>
     <ProjectSection />
+    <Testimonials />
+    <Contact />
   </div>
 </template>
 
