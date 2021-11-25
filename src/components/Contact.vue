@@ -2,12 +2,12 @@
 </script>
 
 <template>
-  <div class="mt-32 mx-32 relative">
+  <div class="mt-32 mx-32 relative" id="about">
     <p class="text-primary text-7xl font-extralight">
       You can <strong>Contact me</strong> via
     </p>
     <div class="mt-10 w-full h-56 bg-footer" />
-    <p class="ml-4 text-gray-500 text-xs max-w-lg tracking-wider my-5">
+    <p class="ml-1 text-gray-500 text-xs max-w-lg tracking-wider my-5">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in
       tempore nemo cum. Earum magnam ullam impedit, ratione, accusantium numquam
       adipisci veniam reprehenderit nesciunt cumque nemo iste vero soluta illo.

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.vue";
 import ProjectSection from "./components/Projects.vue";
 import Testimonials from "./components/Testimonials.vue";
 import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
@@ -58,6 +59,7 @@ import Contact from "./components/Contact.vue";
     <ProjectSection />
     <Testimonials />
     <Contact />
+    <Footer />
   </div>
 </template>
 
