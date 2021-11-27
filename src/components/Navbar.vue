@@ -1,15 +1,21 @@
 
 <script lang="ts" setup>
+import { ref } from "@vue/reactivity";
+
+const links = ref(["work", "skills", "testimonials", "about"]);
 </script>
 
 
 
   <template>
-  <nav class="bg-transparent p-12 flex justify-end">
-    <a class="mx-6 text-black tracking-more-wide" href="#work">WORK</a>
-    <a class="mx-6 text-black tracking-more-wide" href="#skills">SKILLS</a>
-    <a class="mx-6 text-black tracking-more-wide" href="#testimonials">TESTIMONIALS</a>
-    <a class="mx-6 text-black tracking-more-wide" href="#about">ABOUT</a>
+  <nav class="bg-transparent py-12 md:px-12 flex justify-around lg:justify-end">
+    <a
+      v-for="link in links"
+      :key="link"
+      class="lg:mx-6 text-black tracking-widest lg:tracking-more-wide uppercase"
+      :href="'#' + link"
+      >{{ link }}</a
+    >
   </nav>
 </template>
 
