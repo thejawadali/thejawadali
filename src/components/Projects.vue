@@ -4,8 +4,8 @@ import Project from "./Base/BaseProject.vue";
 
 
 <template>
-  <div id="work" class="mt-32 mx-32">
-    <p class="text-primary text-7xl font-extralight">
+  <div id="work" class="mt-32 lg:mx-32">
+    <p class="text-primary px-8 lg:px-0 text-5xl lg:text-7xl font-extralight">
       Some of my <strong>Notable Projects</strong>
     </p>
     <div class="my-10 flex flex-wrap justify-center">
