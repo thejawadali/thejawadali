@@ -1,5 +1,10 @@
 <script lang="ts" setup>
-const test = "";
+const summary = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nisi totam
+        dolores placeat doloremque ipsa! Numquam mollitia facilis nihil ipsa
+        ipsum sint perspiciatis ea nobis impedit reiciendis, molestias, illo
+        corporis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
+        ut nihil quam, iste id suscipit modi dolore illum similique velit.
+        Doloribus.`;
 const socials = [
   {
     id: 1,
@@ -34,7 +39,9 @@ const socials = [
     "
   >
     <!-- headings -->
-    <div class="flex-1 lg:text-left text-center flex items-center justify-around">
+    <div
+      class="flex-1 lg:text-left text-center flex items-center justify-around"
+    >
       <h1 class="text-primary text-5xl lg:text-7xl max-w-md">
         Hello <br />
         I'm <strong> Jawad Ali</strong>
@@ -45,14 +52,15 @@ const socials = [
     <!-- <div class="w-8/12 my-4 border-b border-black opacity-10 lg:hidden" /> -->
     <!-- description -->
     <div class="flex-1 flex flex-col mt-4">
-      <p class="text-gray-500 font-normal text-sm lg:text-base lg:my-4 text-justify">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nisi totam
-        dolores placeat doloremque ipsa! Numquam mollitia facilis nihil ipsa
-        ipsum sint perspiciatis ea nobis impedit reiciendis, molestias, illo
-        corporis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
-        ut nihil quam, iste id suscipit modi dolore illum similique velit.
-        Doloribus.
-      </p>
+      <p
+        class="
+          text-gray-500
+          font-normal
+          text-sm
+          lg:text-base lg:my-4
+          text-justify
+        "
+      >{{summary}}</p>
       <div class="my-3 mx-auto lg:mx-0">
         <a v-for="soc in socials" :key="soc.id" class="mx-2" :href="soc.url"
           ><i
