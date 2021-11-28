@@ -42,9 +42,9 @@ const socials = [
       <div class="h-44 hidden xl:block border-l border-black opacity-10" />
     </div>
     <!-- horizontal divider -->
-    <div class="w-8/12 my-4 border-b border-black opacity-10 lg:hidden" />
+    <!-- <div class="w-8/12 my-4 border-b border-black opacity-10 lg:hidden" /> -->
     <!-- description -->
-    <div class="flex-1 flex flex-col">
+    <div class="flex-1 flex flex-col mt-4">
       <p class="text-gray-500 font-normal text-sm lg:text-base lg:my-4 text-justify">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nisi totam
         dolores placeat doloremque ipsa! Numquam mollitia facilis nihil ipsa
