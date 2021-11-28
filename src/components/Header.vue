@@ -45,7 +45,7 @@ const socials = [
     <div class="w-8/12 my-4 border-b border-black opacity-10 lg:hidden" />
     <!-- description -->
     <div class="flex-1 flex flex-col">
-      <p class="text-gray-500 font-normal text-base lg:my-4 text-justify">
+      <p class="text-gray-500 font-normal text-sm lg:text-base lg:my-4 text-justify">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nisi totam
         dolores placeat doloremque ipsa! Numquam mollitia facilis nihil ipsa
         ipsum sint perspiciatis ea nobis impedit reiciendis, molestias, illo
