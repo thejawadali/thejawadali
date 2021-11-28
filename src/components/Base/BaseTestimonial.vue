@@ -18,7 +18,7 @@ const feed = {
       </h1>
       <p class="text-secondary md:my-0 font-semibold text-md">{{ feed.desg }}</p>
       <p
-        class="text-gray-400 text-xs lg:text-sm w-full tracking-wider text-justify mt-2 md:mt-4 bg-red-50"
+        class="text-gray-400 text-xs lg:text-sm w-full tracking-wider text-justify mt-2 md:mt-4"
       >
         "{{ feed.details }}"
       </p>
