@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 const feed = {
-  img: "http://placeimg.com/640/480/nightlife",
+  img: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cHJvamVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
   customerName: "Jawad Ali",
   desg: "Co-Founder",
   details:

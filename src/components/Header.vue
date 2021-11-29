@@ -1,27 +1,22 @@
 <script lang="ts" setup>
-const summary = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nisi totam
-        dolores placeat doloremque ipsa! Numquam mollitia facilis nihil ipsa
-        ipsum sint perspiciatis ea nobis impedit reiciendis, molestias, illo
-        corporis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
-        ut nihil quam, iste id suscipit modi dolore illum similique velit.
-        Doloribus.`;
-const socials = [
-  {
-    id: 1,
-    icon: "fa-linkedin-square",
-    url: "",
-  },
-  {
-    id: 2,
-    icon: "fa-twitter",
-    url: "",
-  },
-  {
-    id: 3,
-    icon: " fa-github",
-    url: "",
-  },
-];
+import { onMounted, ref } from "vue-demi";
+import { store } from "../store";
+const myStore = store();
+
+const summary = ref("");
+const socials = ref([] as any)
+
+
+onMounted(() => {
+  myStore.getHeader((success: boolean, resp: any) => {
+    if (success) {
+      summary.value = resp.summary
+      socials.value = resp.socialIcons
+    } else {
+      console.error(resp);
+    }
+  });
+});
 </script>
 
 
@@ -60,7 +55,9 @@ const socials = [
           lg:text-base lg:my-4
           text-justify
         "
-      >{{summary}}</p>
+      >
+        {{ summary }}
+      </p>
       <div class="my-3 mx-auto lg:mx-0">
         <a v-for="soc in socials" :key="soc.id" class="mx-2" :href="soc.url"
           ><i

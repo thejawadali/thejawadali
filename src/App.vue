@@ -5,6 +5,13 @@ import Testimonials from "./components/Testimonials.vue";
 import Header from "./components/Header.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
+// import { onMounted } from "vue-demi";
+// import { store } from "./store";
+
+// const myStore = store();
+// onMounted(() => {
+  
+// });
 </script>
 
 <template>
@@ -26,7 +33,7 @@ import Footer from "./components/Footer.vue";
         opacity-20
       "
     />
-        <!-- xl:rounded-bl-full -->
+    <!-- xl:rounded-bl-full -->
     <Header />
     <ProjectSection />
     <Testimonials />

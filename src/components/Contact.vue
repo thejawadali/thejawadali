@@ -1,11 +1,27 @@
 <script lang="ts" setup>
-const description = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in
-        tempore nemo cum. Earum magnam ullam impedit, ratione, accusantium
-        numquam adipisci veniam reprehenderit nesciunt cumque nemo iste vero
-        soluta illo`;
-const email = "alijamil734@gmail.com";
-const role = "Full Stack Software Engineer";
-const phoneNumber = "(+92) 309 694 9375";
+import { store } from "../store";
+import { onMounted, ref } from "vue-demi"
+
+const myStore = store()
+
+
+const description= ref("")
+const email= ref("")
+const role= ref("")
+const phoneNumber= ref("")
+
+onMounted(() => {
+  myStore.getContactInfo((success: boolean, resp: any) => {
+    if (success) {
+      description.value = resp.description
+      email.value = resp.email
+      role.value = resp.role
+      phoneNumber.value = resp.phone
+    } else {
+      console.error(resp);
+    }
+  });
+});
 </script>
 
 <template>
@@ -40,7 +56,7 @@ const phoneNumber = "(+92) 309 694 9375";
         mx-auto
         my-5
         md:m-0 md:relative md:bottom-24
-        xl:bottom-44
+        xl:bottom-56
         md:right-10
         inline-block
       "
