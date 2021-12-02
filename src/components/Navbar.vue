@@ -12,7 +12,7 @@ const links = ref(["work", "skills", "testimonials", "about"]);
     <a
       v-for="link in links"
       :key="link"
-      class="lg:mx-6 text-black tracking-widest lg:tracking-more-wide uppercase"
+      class="lg:mx-6 text-black tracking-widest lg:tracking-more-wide uppercase hover:text-primary-dark"
       :href="'#' + link"
       >{{ link }}</a
     >

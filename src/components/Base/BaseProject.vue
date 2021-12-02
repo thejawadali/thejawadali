@@ -18,7 +18,7 @@ const props = defineProps({
       <h1 class="text-secondary text-lg font-semibold">{{ title }}</h1>
       <div>
         <a :href="githubUrl" target="_blank" rel="noopener noreferrer">
-          <i class="text-secondary text-lg mx-1 fa fa-github"></i>
+          <i class="text-secondary hover:text-secondary-dark text-lg mx-1 fa fa-github"></i>
         </a>
         <!-- <i class="text-secondary text-lg mx-1 fa fa-linkedin-square"></i> -->
         <!-- <i class="text-secondary text-lg mx-1 fa fa-linkedin-square"></i> -->
