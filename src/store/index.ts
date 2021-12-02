@@ -33,6 +33,14 @@ export const store = defineStore({
         cb(false, "Error Occured")
       }
     },
+    async getSkills(cb: (success: boolean, msg: any) => any) {
+      const docSnap = await getDoc(doc(db, pathName, "skills"))
+      if (docSnap.exists()) {
+        cb(true, docSnap.data())
+      } else {
+        cb(false, "Error Occured")
+      }
+    },
 
   },
 })
