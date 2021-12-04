@@ -30,6 +30,14 @@ export const store = defineStore({
         cb(false, error.message)
       }
     },
+    async getFeeds(cb: (success: boolean, msg: any) => any) {
+      try {
+        const { data } = await axios.get("../../public/db.json")
+        cb(true, data.testimonials)
+      } catch (error: any) {
+        cb(false, error.message)
+      }
+    },
     async getContact(cb: (success: boolean, msg: any) => any) {
       try {
         const { data } = await axios.get("../../public/db.json")

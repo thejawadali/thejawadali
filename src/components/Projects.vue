@@ -27,11 +27,13 @@ onMounted(()=>{
       <Project
         v-for="project in projects"
         :key="project.id"
-        :img="project.img"
+        :project="project"
+      />
+        <!-- :img="project.img"
         :title="project.title"
         :github-url="project.githubURL"
-        :description="project.description"
-      />
+        :techs="project.techs"
+        :description="project.description" -->
     </div>
     <div class="text-center">
       <a

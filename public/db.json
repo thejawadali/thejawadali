@@ -4,17 +4,17 @@
     "socialIcons": [
       {
         "id": "84235c42-56e5-4623-884e-e7dc5c39ff70",
-        "url": "https://www.youtube.com/",
+        "url": "https://www.linkedin.com/in/jawad-ali-23a00712a",
         "icon": "fa-linkedin-square"
       },
       {
         "id": "5d611baa-c7b5-4360-9565-4e876deaf9cb",
-        "url": "",
+        "url": "https://twitter.com/JawadAl82637325",
         "icon": "fa-twitter"
       },
       {
         "id": "0f5063ab-92c2-40ff-810e-4213a1eeaacc",
-        "url": "",
+        "url": "https://github.com/thejawadali",
         "icon": "fa-github"
       }
     ]
@@ -65,29 +65,68 @@
     {
       "id": "cc06d78e-eaa6-4812-b33c-ed322d31f92e",
       "description": "Laudantium aut rerum natus consequatur rerum odit quo labore sunt. Omnis quod inventore quia aliquid rerum similique velit dolores quae. Quia excepturi quo ut. Tempore et ipsam quia dolore. Est at ut perferendis. Deserunt rerum a fugit fugiat dolor consequatur numquam et vitae.",
-      "githubURl": "",
-      "img": "http://placeimg.com/640/480/sports",
-      "title": "Sports Club Site"
+      "githubURL": "hello",
+      "img": "./images/img.png",
+      "title": "Sports Club Site",
+      "techs": [
+        "devicon-html5-plain",
+        "devicon-css3-plain",
+        "devicon-nodejs-plain"
+      ]
     },
     {
       "id": "9be6b3ef-4e62-49a1-8b4c-79d2905aa84d",
       "description": "Laudantium aut rerum natus consequatur rerum odit quo labore sunt. Omnis quod inventore quia aliquid rerum similique velit dolores quae. Quia excepturi quo ut. Tempore et ipsam quia dolore. Est at ut perferendis. Deserunt rerum a fugit fugiat dolor consequatur numquam et vitae.",
-      "githubURl": "",
-      "img": "http://placeimg.com/640/480/sports",
-      "title": "Some other stuff"
+      "githubURL": "sfddsf",
+      "img": "./images/img.png",
+      "title": "Some other stuff",
+      "techs": [
+        "devicon-html5-plain",
+        "devicon-react-plain",
+        "devicon-nodejs-plain"
+      ]
     },
     {
       "id": "177664dd-9d36-42fc-9a0e-e36e24ab5d8a",
       "description": "Laudantium aut rerum natus consequatur rerum odit quo labore sunt. Omnis quod inventore quia aliquid rerum similique velit dolores quae. Quia excepturi quo ut. Tempore et ipsam quia dolore. Est at ut perferendis. Deserunt rerum a fugit fugiat dolor consequatur numquam et vitae.",
-      "githubURl": "",
-      "img": "http://placeimg.com/640/480/sports",
-      "title": "Some Extra"
+      "githubURL": "asdfds",
+      "img": "./images/img.png",
+      "title": "Some Extra",
+      "techs": [
+        "devicon-html5-plain",
+        "devicon-javascript-plain",
+        "devicon-typescript-plain",
+        "devicon-nodejs-plain"
+      ]
     }
   ],
   "contact": {
-    "description":"Laudantium aut rerum natus consequatur rerum odit quo labore sunt. Omnis quod inventore quia aliquid rerum similique velit dolores quae. Quia excepturi quo ut. Tempore et ipsam quia dolore. Est at ut perferendis. Deserunt rerum a fugit fugiat dolor consequatur numquam et vitae.",
+    "description": "Laudantium aut rerum natus consequatur rerum odit quo labore sunt. Omnis quod inventore quia aliquid rerum similique velit dolores quae. Quia excepturi quo ut. Tempore et ipsam quia dolore. Est at ut perferendis. Deserunt rerum a fugit fugiat dolor consequatur numquam et vitae.",
     "email": "alijamil734@gmail.com",
     "phone": "+92 309 694 9375",
     "role": "Full Stack software engineer"
-  }
+  },
+  "testimonials": [
+    {
+      "id": "7fcf9440-142d-4603-8bba-b3f0f13f4341",
+      "img": "http://placeimg.com/640/480/food",
+      "customerName": "Jawad Ali",
+      "desg": "Co-Founder",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores a suscipit? Voluptates, eaque saepe hic quam assumenda cupiditate, sint veritatis corporis repudiandae, nesciunt id enim voluptas. Repellat, dolorem libero"
+    },
+    {
+      "id": "87ea829b-28b0-486f-ae61-ee4ab1771276",
+      "img": "http://placeimg.com/640/480/dogs",
+      "customerName": "Jawad Ali",
+      "desg": "Co-Founder",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores a suscipit? Voluptates, eaque saepe hic quam assumenda cupiditate, sint veritatis corporis repudiandae, nesciunt id enim voluptas. Repellat, dolorem libero"
+    },
+    {
+      "id": "f3e0a117-c0e6-473b-a008-78bb00f7be2c",
+      "img": "http://placeimg.com/640/480/cats",
+      "customerName": "Jawad Ali",
+      "desg": "Co-Founder",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores a suscipit? Voluptates, eaque saepe hic quam assumenda cupiditate, sint veritatis corporis repudiandae, nesciunt id enim voluptas. Repellat, dolorem libero"
+    }
+  ]
 }

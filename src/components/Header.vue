@@ -60,7 +60,7 @@ onMounted(() => {
         {{ summary }}
       </p>
       <div class="my-3 mx-auto lg:mx-0">
-        <a v-for="soc in socials" :key="soc.id" class="mx-2" :href="soc.url"
+        <a v-for="soc in socials" :key="soc.id" class="mx-2" :href="soc.url" target="_blank" rel="noopener noreferrer"
           ><i
             :class="soc.icon"
             class="text-2xl text-primary fa hover:text-primary-dark"

@@ -2,33 +2,49 @@
 import BaseTestimonial from "./Base/BaseTestimonial.vue";
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination} from "vue3-carousel";
+import { store as myStore } from "../store";
+import { onMounted, ref } from "vue-demi"
 
-const feeds = [
-  {
-    id: 1,
-    img: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cHJvamVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-    customerName: "Jawad Ali",
-    desg: "Co-Founder",
-    details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores a suscipit? Voluptates, eaque saepe hic quam assumenda cupiditate, sint veritatis corporis repudiandae, nesciunt id enim voluptas. Repellat, dolorem libero",
-  },
-  {
-    id: 2,
-    img: "http://placeimg.com/640/480/cats",
-    customerName: "Some random pic from vs code",
-    desg: "Co-Founder",
-    details:
-      "Sapiente nulla iure. Eum et rerum rem ut enim voluptatibus. Est doloribus fugit. Quis et id id esse assumenda at possimus tempora. Omnis dolorem odio iure ipsum asperiores quae dolorum facere. Quaerat est eos qui itaque.",
-  },
-  {
-    id: 3,
-    img: "http://placeimg.com/640/480/cats",
-    customerName: "Another slide",
-    desg: "Co-Founder",
-    details:
-      "Sapiente nulla iure. Eum et rerum rem ut enim voluptatibus. Est doloribus fugit. Quis et id id esse assumenda at possimus tempora. Omnis dolorem odio iure ipsum asperiores quae dolorum facere. Quaerat est eos qui itaque.",
-  },
-];
+const store = myStore()
+
+const feeds = ref([] as any)
+
+onMounted(()=>{
+  store.getFeeds((success: boolean, resp: any) => {
+    if (success) {
+      feeds.value = resp
+    } else {
+      console.error(resp);
+    }
+  });
+})
+
+// const feeds = [
+//   {
+//     id: 1,
+//     img: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cHJvamVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+//     customerName: "Jawad Ali",
+//     desg: "Co-Founder",
+//     details:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores a suscipit? Voluptates, eaque saepe hic quam assumenda cupiditate, sint veritatis corporis repudiandae, nesciunt id enim voluptas. Repellat, dolorem libero",
+//   },
+//   {
+//     id: 2,
+//     img: "http://placeimg.com/640/480/cats",
+//     customerName: "Some random pic from vs code",
+//     desg: "Co-Founder",
+//     details:
+//       "Sapiente nulla iure. Eum et rerum rem ut enim voluptatibus. Est doloribus fugit. Quis et id id esse assumenda at possimus tempora. Omnis dolorem odio iure ipsum asperiores quae dolorum facere. Quaerat est eos qui itaque.",
+//   },
+//   {
+//     id: 3,
+//     img: "http://placeimg.com/640/480/cats",
+//     customerName: "Another slide",
+//     desg: "Co-Founder",
+//     details:
+//       "Sapiente nulla iure. Eum et rerum rem ut enim voluptatibus. Est doloribus fugit. Quis et id id esse assumenda at possimus tempora. Omnis dolorem odio iure ipsum asperiores quae dolorum facere. Quaerat est eos qui itaque.",
+//   },
+// ];
 </script>
 
 
