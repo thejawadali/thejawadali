@@ -1,14 +1,15 @@
 <script lang="ts" setup>
 import { onMounted, ref } from "vue-demi";
-import { store } from "../store";
-const myStore = store();
+import { store as myStore } from "../store";
+const store = myStore()
 
 const summary = ref("");
 const socials = ref([] as any)
 
 
+
 onMounted(() => {
-  myStore.getHeader((success: boolean, resp: any) => {
+  store.getHeader((success: boolean, resp: any) => {
     if (success) {
       summary.value = resp.summary
       socials.value = resp.socialIcons

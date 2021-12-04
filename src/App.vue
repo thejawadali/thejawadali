@@ -6,12 +6,13 @@ import Header from "./components/Header.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
 import Skills from "./components/Skills.vue";
+import { onMounted } from "vue-demi";
+
 </script>
 
 <template>
   <div>
     <Navbar />
-    <!-- backdrop -->
     <div
       class="
         absolute

@@ -7,13 +7,13 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "firebase": "^9.5.0",
+    "axios": "^0.20.0-0",
     "pinia": "^2.0.4",
     "vue": "^3.2.16",
     "vue3-carousel": "^0.1.32"
   },
   "devDependencies": {
-    "@types/firebase": "^3.2.1",
+    "@types/axios": "^0.14.0",
     "@vitejs/plugin-vue": "^1.9.3",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.0",

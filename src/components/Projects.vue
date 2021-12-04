@@ -1,15 +1,15 @@
 <script lang="ts" setup>
 import Project from "./Base/BaseProject.vue";
-import { store } from "../store";
+import { store as myStore } from "../store";
 import { onMounted, ref } from "vue-demi";
-const myStore = store()
+const store = myStore()
 
 const projects = ref([] as any)
 
 onMounted(()=>{
-  myStore.getProjects((success: boolean, resp: any) => {
+  store.getProjects((success: boolean, resp: any) => {
     if (success) {
-      projects.value = resp.projects
+      projects.value = resp
     } else {
       console.error(resp);
     }

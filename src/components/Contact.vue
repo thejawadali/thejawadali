@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-import { store } from "../store";
+import { store as myStore } from "../store";
 import { onMounted, ref } from "vue-demi"
 
-const myStore = store()
+const store = myStore()
 
 
 const description= ref("")
@@ -11,12 +11,12 @@ const role= ref("")
 const phoneNumber= ref("")
 
 onMounted(() => {
-  myStore.getContactInfo((success: boolean, resp: any) => {
+  store.getContact((success: boolean, resp: any) => {
     if (success) {
       description.value = resp.description
       email.value = resp.email
       role.value = resp.role
-      phoneNumber.value = resp.phone
+      phoneNumber.value = resp.phoneNumber
     } else {
       console.error(resp);
     }

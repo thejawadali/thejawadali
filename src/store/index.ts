@@ -1,8 +1,5 @@
-import { doc, getDoc } from "firebase/firestore"
+import axios from "axios"
 import { defineStore } from 'pinia'
-import db from "../firebase"
-
-const pathName = "portfolio"
 
 export const store = defineStore({
   id: 'Store',
@@ -10,37 +7,36 @@ export const store = defineStore({
   }),
   actions: {
     async getHeader(cb: (success: boolean, msg: any) => any) {
-      const docSnap = await getDoc(doc(db, pathName, "header"))
-      if (docSnap.exists()) {
-        cb(true, docSnap.data())
-      } else {
-        cb(false, "Error Occured")
+      try {
+        const { data } = await axios.get("../../public/db.json")
+        cb(true, data.header)
+      } catch (error: any) {
+        cb(false, error.message)
       }
     },
     async getProjects(cb: (success: boolean, msg: any) => any) {
-      const docSnap = await getDoc(doc(db, pathName, "work"))
-      if (docSnap.exists()) {
-        cb(true, docSnap.data())
-      } else {
-        cb(false, "Error Occured")
-      }
-    },
-    async getContactInfo(cb: (success: boolean, msg: any) => any) {
-      const docSnap = await getDoc(doc(db, pathName, "contact"))
-      if (docSnap.exists()) {
-        cb(true, docSnap.data())
-      } else {
-        cb(false, "Error Occured")
+      try {
+        const { data } = await axios.get("../../public/db.json")
+        cb(true, data.projects)
+      } catch (error: any) {
+        cb(false, error.message)
       }
     },
     async getSkills(cb: (success: boolean, msg: any) => any) {
-      const docSnap = await getDoc(doc(db, pathName, "skills"))
-      if (docSnap.exists()) {
-        cb(true, docSnap.data())
-      } else {
-        cb(false, "Error Occured")
+      try {
+        const { data } = await axios.get("../../public/db.json")
+        cb(true, data.skills)
+      } catch (error: any) {
+        cb(false, error.message)
       }
     },
-
+    async getContact(cb: (success: boolean, msg: any) => any) {
+      try {
+        const { data } = await axios.get("../../public/db.json")
+        cb(true, data.contact)
+      } catch (error: any) {
+        cb(false, error.message)
+      }
+    },
   },
 })

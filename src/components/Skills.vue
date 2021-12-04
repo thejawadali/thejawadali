@@ -1,14 +1,14 @@
 <script lang="ts" setup>
 import { onMounted, ref } from "vue-demi";
 import BaseSkill from "./Base/BaseSkill.vue";
-import { store } from "../store";
-const myStore = store();
+import { store as myStore } from "../store";
+const store = myStore();
 
-const icons = ref([]);
+const skills = ref([] as any);
 onMounted(() => {
-  myStore.getSkills((success: boolean, resp: any) => {
+  store.getSkills((success: boolean, resp: any) => {
     if (success) {
-      icons.value = resp.skills;
+      skills.value = resp
     } else {
       console.error(resp);
     }
@@ -22,7 +22,7 @@ onMounted(() => {
       My <strong>Top Skills</strong>
     </p>
     <div class="my-10 flex flex-wrap justify-center">
-      <BaseSkill v-for="icon in icons" :key="icon" :icon="icon" />
+      <BaseSkill v-for="skill in skills" :key="skill.id" :icon="skill.icon" />
     </div>
   </div>
 </template>
