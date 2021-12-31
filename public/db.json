@@ -1,6 +1,6 @@
 {
   "header": {
-    "summary": "Laborum aut fugit. Quia nulla omnis at repellendus aperiam assumenda quos. Sequi ut expedita qui blanditiis exercitationem voluptatem quisquam. Magni corrupti hic. At molestiae blanditiis velit possimus impedit hic reiciendis alias. Maxime doloremque neque laudantium expedita ut quia. Itaque ea quia dolorum rerum ut dolor omnis repellat iusto. Officia et assumenda voluptatibus. Ea vitae eos fugit eaque.Et est sunt ut consequuntur ut. Assumenda vero incidunt iste et ipsa est dignissimos cum eum. Mollitia rerum est id doloremque ad ab.",
+    "summary": "Determined Developer lends more than 4 years of expertise in developing web-planning projects in fast-paced environments requiring fast turnaround. Blends detailed knowledge of programming aspects with interpersonal, communicative nature. Thorough grasp of front-end and back-end contributes to generating custom script for specific organizational needs.",
     "socialIcons": [
       {
         "id": "84235c42-56e5-4623-884e-e7dc5c39ff70",
@@ -63,47 +63,79 @@
   ],
   "projects": [
     {
-      "id": "cc06d78e-eaa6-4812-b33c-ed322d31f92e",
-      "description": "Laudantium aut rerum natus consequatur rerum odit quo labore sunt. Omnis quod inventore quia aliquid rerum similique velit dolores quae. Quia excepturi quo ut. Tempore et ipsam quia dolore. Est at ut perferendis. Deserunt rerum a fugit fugiat dolor consequatur numquam et vitae.",
-      "githubURL": "hello",
-      "img": "./images/img.png",
-      "title": "Sports Club Site",
+      "id": "9c4a5fc7-3785-4868-a941-1db11990c159",
+      "description": "Vue blogs is created with Vue.js and Nodejs. User Can create, read and comment on blogs.",
+      "githubURL": "https://github.com/thejawadali/vue-blogs",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-86446.appspot.com/o/posts%2FScreenshot_20211207_123549.jpg?alt=media&token=2f054a4b-fe03-4b42-8a3e-f3bd4755a32a",
+      "title": "Vue Blogs",
       "techs": [
-        "devicon-html5-plain",
-        "devicon-css3-plain",
-        "devicon-nodejs-plain"
-      ]
-    },
-    {
-      "id": "9be6b3ef-4e62-49a1-8b4c-79d2905aa84d",
-      "description": "Laudantium aut rerum natus consequatur rerum odit quo labore sunt. Omnis quod inventore quia aliquid rerum similique velit dolores quae. Quia excepturi quo ut. Tempore et ipsam quia dolore. Est at ut perferendis. Deserunt rerum a fugit fugiat dolor consequatur numquam et vitae.",
-      "githubURL": "sfddsf",
-      "img": "./images/img.png",
-      "title": "Some other stuff",
-      "techs": [
-        "devicon-html5-plain",
-        "devicon-react-plain",
-        "devicon-nodejs-plain"
+        "devicon-vuejs-plain",
+        "devicon-nodejs-plain",
+        "devicon-tailwindcss-plain"
       ]
     },
     {
       "id": "177664dd-9d36-42fc-9a0e-e36e24ab5d8a",
-      "description": "Laudantium aut rerum natus consequatur rerum odit quo labore sunt. Omnis quod inventore quia aliquid rerum similique velit dolores quae. Quia excepturi quo ut. Tempore et ipsam quia dolore. Est at ut perferendis. Deserunt rerum a fugit fugiat dolor consequatur numquam et vitae.",
-      "githubURL": "asdfds",
+      "description": "This simple app is built with Vue.js and REST COUNTRIES to get countries data. In this application user can filter countries in any continent or by name.",
+      "githubURL": "https://github.com/thejawadali/rest-countries",
       "img": "./images/img.png",
-      "title": "Some Extra",
+      "title": "Rest Countries",
+      "techs": [
+        "devicon-vuejs-plain",
+        "devicon-tailwindcss-plain"
+      ]
+    },
+    {
+      "id": "0dbae6bf-12ca-4de5-801a-ddde2e7442d5",
+      "description": "Weather app is built with Vue.js and I used Open Weather Api to get weather data. You can search weather of any city in the world.",
+      "githubURL": "https://github.com/thejawadali/rest-countries",
+      "img": "./images/img.png",
+      "title": "Vue Weather",
+      "techs": [
+        "devicon-vuejs-plain",
+        "devicon-tailwindcss-plain"
+      ]
+    },
+    {
+      "id": "e46a060a-e04f-4db6-8831-8acecad9ee60",
+      "description": "This simple game is built with Vanilla HTML, CSS and JavaScript. User have to guess the RGB color in the background in the given time.",
+      "githubURL": "https://thejawadali.github.io/vanilla-js-projects/20-guess-the-color/",
+      "img": "./images/img.png",
+      "title": "Guess The Color",
       "techs": [
         "devicon-html5-plain",
-        "devicon-javascript-plain",
-        "devicon-typescript-plain",
-        "devicon-nodejs-plain"
+        "devicon-css3-plain",
+        "devicon-javascript-plain"
+      ]
+    },
+    {
+      "id": "8828ba35-4a3a-4b7b-af25-9ee011c6b65b",
+      "description": "Tic Tac Toe is built with HTML, CSS and JavaScript",
+      "githubURL": "https://thejawadali.github.io/vanilla-js-projects/19-tictactoe/",
+      "img": "./images/insta.png",
+      "title": "Tic Tac Toe",
+      "techs": [
+        "devicon-html5-plain",
+        "devicon-css3-plain",
+        "devicon-javascript-plain"
+      ]
+    },
+    {
+      "id": "471af961-d04b-4e42-a446-fba5724cc7cf",
+      "description": "This multiplayer quiz application is built with Unity 3d game engine and Firebase realtime database. User can take quiz on any category or can challenge his friend to play with him.",
+      "githubURL": "https://github.com/thejawadali/quiz-of-intelligence",
+      "img": "./images/img.png",
+      "title": "Quiz Of Intelligence",
+      "techs": [
+        "devicon-unity-original",
+        "devicon-firebase-plain"
       ]
     }
   ],
   "contact": {
-    "description": "Laudantium aut rerum natus consequatur rerum odit quo labore sunt. Omnis quod inventore quia aliquid rerum similique velit dolores quae. Quia excepturi quo ut. Tempore et ipsam quia dolore. Est at ut perferendis. Deserunt rerum a fugit fugiat dolor consequatur numquam et vitae.",
+    "description": "I'll be more than happy to answer any query so please feel free to ask anything.",
     "email": "alijamil734@gmail.com",
-    "phone": "+92 309 694 9375",
+    "phoneNumber": "+92 309 6949 375",
     "role": "Full Stack software engineer"
   },
   "testimonials": [

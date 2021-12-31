@@ -4,7 +4,8 @@ const prop = defineProps({
 });
 
 function goto() {
-  window.open(prop.project.githubUrl, '_blank')?.focus
+  window.open(prop.project.githubURL, '_blank')?.focus
+  
 }
 </script>
 
