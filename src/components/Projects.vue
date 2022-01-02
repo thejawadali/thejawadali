@@ -23,17 +23,12 @@ onMounted(()=>{
     <p class="text-primary px-8 lg:px-0 text-5xl lg:text-7xl font-extralight">
       Some of my <strong>Notable Projects</strong>
     </p>
-    <div class="my-10 flex flex-wrap justify-center">
+    <div class="my-10 gap-7 flex flex-wrap justify-center">
       <Project
         v-for="project in projects"
         :key="project.id"
         :project="project"
       />
-        <!-- :img="project.img"
-        :title="project.title"
-        :github-url="project.githubURL"
-        :techs="project.techs"
-        :description="project.description" -->
     </div>
     <div class="text-center">
       <a
