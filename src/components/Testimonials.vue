@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import BaseTestimonial from "./Base/BaseTestimonial.vue";
 import "vue3-carousel/dist/carousel.css";
-import { Carousel, Slide, Pagination} from "vue3-carousel";
+// import { Carousel, Slide, Pagination} from "vue3-carousel";
 import { store as myStore } from "../store";
 import { onMounted, ref } from "vue-demi"
 
@@ -53,7 +53,7 @@ onMounted(()=>{
     <p class="text-primary px-8 lg:px-0 text-5xl lg:text-7xl font-extralight">
       <strong>They Trusted</strong> on my skills
     </p>
-    <div class="my-10 w-4/5 mx-auto md:max-w-5xl border-2 rounded md:p-10">
+    <!-- <div class="my-10 w-4/5 mx-auto md:max-w-5xl border-2 rounded md:p-10">
       <Carousel
         :autoplay="2500"
         :items-to-show="1"
@@ -73,6 +73,6 @@ onMounted(()=>{
           <Pagination />
         </template>
       </Carousel>
-    </div>
+    </div> -->
   </div>
 </template>
