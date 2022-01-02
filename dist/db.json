@@ -1,0 +1,127 @@
+{
+  "header": {
+    "summary": "Determined Developer lends more than 4 years of expertise in developing web-planning projects in fast-paced environments requiring fast turnaround. Blends detailed knowledge of programming aspects with interpersonal, communicative nature. Thorough grasp of front-end and back-end contributes to generating custom script for specific organizational needs.",
+    "socialIcons": [
+      {
+        "id": "84235c42-56e5-4623-884e-e7dc5c39ff70",
+        "url": "https://www.linkedin.com/in/jawad-ali-23a00712a",
+        "icon": "fa-linkedin-square"
+      },
+      {
+        "id": "5d611baa-c7b5-4360-9565-4e876deaf9cb",
+        "url": "https://twitter.com/JawadAl82637325",
+        "icon": "fa-twitter"
+      },
+      {
+        "id": "0f5063ab-92c2-40ff-810e-4213a1eeaacc",
+        "url": "https://github.com/thejawadali",
+        "icon": "fa-github"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "1c0fb562-0ef8-48eb-be3f-e6c1d5d46f6d",
+      "icon": "devicon-html5-plain colored"
+    },
+    {
+      "id": "746c67d8-dfb6-45db-8106-001ba0277be9",
+      "icon": "devicon-css3-plain colored"
+    },
+    {
+      "id": "b6ca3b7e-55e7-4ea4-88e5-e843b7be3fa3",
+      "icon": "devicon-tailwindcss-plain colored"
+    },
+    {
+      "id": "ddc8a835-99dd-456c-9e08-ba9e797172a6",
+      "icon": "devicon-javascript-plain colored"
+    },
+    {
+      "id": "24ae7e24-3b89-41da-a56b-4865b1981ee3",
+      "icon": "devicon-typescript-plain colored"
+    },
+    {
+      "id": "242952ef-1100-4894-b94f-b2759b80de59",
+      "icon": "devicon-csharp-plain colored"
+    },
+    {
+      "id": "3c06c56d-9fa6-4887-b81a-0a917d247620",
+      "icon": "devicon-vuejs-plain colored"
+    },
+    {
+      "id": "8ac0d431-91d2-4aed-83fc-5895ea030fff",
+      "icon": "devicon-nodejs-plain colored"
+    },
+    {
+      "id": "efb0a78b-58ba-4a4b-b82b-e0f439c5b915",
+      "icon": "devicon-firebase-plain colored"
+    },
+    {
+      "id": "83d1dcea-6088-4479-8e95-19840083b45a",
+      "icon": "devicon-unity-original colored"
+    }
+  ],
+  "projects": [
+    {
+      "id": "177664dd-9d36-42fc-9a0e-e36e24ab5d8a",
+      "description": "This simple app is built with Vue.js and REST COUNTRIES to get countries data. In this application user can filter countries in any continent or by name.",
+      "githubURL": "https://github.com/thejawadali/rest-countries",
+      "appURL":"",
+      "img": "./images/rest.png",
+      "title": "Rest Countries"
+    },
+    {
+      "id": "0dbae6bf-12ca-4de5-801a-ddde2e7442d5",
+      "description": "Weather app is built with Vue.js and I used Open Weather Api to get weather data. You can search weather of any city in the world.",
+      "githubURL": "https://github.com/thejawadali/rest-countries",
+      "appURL":"",
+      "img": "./images/weather.png",
+      "title": "Vue Weather"
+    },
+    {
+      "id": "e46a060a-e04f-4db6-8831-8acecad9ee60",
+      "description": "This simple game is built with Vanilla HTML, CSS and JavaScript. User have to guess the RGB color in the background in the given time.",
+      "githubURL": "",
+      "appURL":"https://thejawadali.github.io/vanilla-js-projects/20-guess-the-color/",
+      "img": "./images/color.png",
+      "title": "Guess The Color"
+    },
+    {
+      "id": "8828ba35-4a3a-4b7b-af25-9ee011c6b65b",
+      "description": "Tic Tac Toe is built with HTML, CSS and JavaScript",
+      "githubURL": "",
+      "appURL":"https://thejawadali.github.io/vanilla-js-projects/19-tictactoe/",
+      "img": "./images/tic.png",
+      "title": "Tic Tac Toe"
+    }
+  ],
+  "contact": {
+    "description": "I'll be more than happy to answer any query so feel free to ask anything.",
+    "email": "alijamil734@gmail.com",
+    "phoneNumber": "+92 309 6949 375",
+    "role": "Full Stack software engineer"
+  },
+  "testimonials": [
+    {
+      "id": "7fcf9440-142d-4603-8bba-b3f0f13f4341",
+      "img": "http://placeimg.com/640/480/food",
+      "customerName": "Jawad Ali",
+      "desg": "Co-Founder",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores a suscipit? Voluptates, eaque saepe hic quam assumenda cupiditate, sint veritatis corporis repudiandae, nesciunt id enim voluptas. Repellat, dolorem libero"
+    },
+    {
+      "id": "87ea829b-28b0-486f-ae61-ee4ab1771276",
+      "img": "http://placeimg.com/640/480/dogs",
+      "customerName": "Jawad Ali",
+      "desg": "Co-Founder",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores a suscipit? Voluptates, eaque saepe hic quam assumenda cupiditate, sint veritatis corporis repudiandae, nesciunt id enim voluptas. Repellat, dolorem libero"
+    },
+    {
+      "id": "f3e0a117-c0e6-473b-a008-78bb00f7be2c",
+      "img": "http://placeimg.com/640/480/cats",
+      "customerName": "Jawad Ali",
+      "desg": "Co-Founder",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores a suscipit? Voluptates, eaque saepe hic quam assumenda cupiditate, sint veritatis corporis repudiandae, nesciunt id enim voluptas. Repellat, dolorem libero"
+    }
+  ]
+}
