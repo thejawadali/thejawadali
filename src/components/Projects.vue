@@ -35,7 +35,7 @@ onMounted(()=>{
         href="https://github.com/thejawadali?tab=repositories"
         target="_blank"
         rel="noopener noreferrer"
-        class="uppercase bg-secondary hover:bg-secondary-dark text-white text-2xl px-20 py-5 rounded-xl"
+        class="uppercase bg-secondary hover:bg-secondary-dark text-white text-xl md:text-2xl px-20 py-5 rounded-xl"
       >
         see all projects
       </a>

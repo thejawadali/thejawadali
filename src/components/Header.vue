@@ -38,7 +38,7 @@ onMounted(() => {
     <div
       class="flex-1 lg:text-left text-center flex items-center justify-around"
     >
-      <h1 class="text-primary text-5xl lg:text-7xl max-w-md">
+      <h1 class="text-primary text-4xl lg:text-7xl max-w-md">
         Hello <br />
         I'm <strong> Jawad Ali</strong>
       </h1>
