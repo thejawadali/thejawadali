@@ -1,6 +1,6 @@
 import axios from "axios"
 import { defineStore } from 'pinia'
-
+const dbPath = "/portfolio/db.json";
 export const store = defineStore({
   id: 'Store',
   state: () => ({
@@ -8,7 +8,7 @@ export const store = defineStore({
   actions: {
     async getHeader(cb: (success: boolean, msg: any) => any) {
       try {
-        const { data } = await axios.get("/db.json")
+        const { data } = await axios.get(dbPath)
         cb(true, data.header)
       } catch (error: any) {
         cb(false, error.message)
@@ -16,7 +16,7 @@ export const store = defineStore({
     },
     async getProjects(cb: (success: boolean, msg: any) => any) {
       try {
-        const { data } = await axios.get("/db.json")
+        const { data } = await axios.get(dbPath)
         cb(true, data.projects)
       } catch (error: any) {
         cb(false, error.message)
@@ -24,7 +24,7 @@ export const store = defineStore({
     },
     async getSkills(cb: (success: boolean, msg: any) => any) {
       try {
-        const { data } = await axios.get("/db.json")
+        const { data } = await axios.get(dbPath)
         cb(true, data.skills)
       } catch (error: any) {
         cb(false, error.message)
@@ -32,7 +32,7 @@ export const store = defineStore({
     },
     async getFeeds(cb: (success: boolean, msg: any) => any) {
       try {
-        const { data } = await axios.get("/db.json")
+        const { data } = await axios.get(dbPath)
         cb(true, data.testimonials)
       } catch (error: any) {
         cb(false, error.message)
@@ -40,7 +40,7 @@ export const store = defineStore({
     },
     async getContact(cb: (success: boolean, msg: any) => any) {
       try {
-        const { data } = await axios.get("/db.json")
+        const { data } = await axios.get(dbPath)
         cb(true, data.contact)
       } catch (error: any) {
         cb(false, error.message)

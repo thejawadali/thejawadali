@@ -2,7 +2,7 @@
 <script lang="ts" setup>
 import { ref } from "@vue/reactivity";
 
-const links = ref<string[]>(["work", "skills", "testimonials", "about"]);
+const links = ref<string[]>(["work", "skills",  "about"]);
 </script>
 
 

@@ -20,7 +20,7 @@ onMounted(()=>{
 
 <template>
   <div id="work" class="mt-32 lg:mx-32">
-    <p class="text-primary px-8 lg:px-0 text-5xl lg:text-7xl font-extralight">
+    <p data-aos="fade-down" class="text-primary px-8 lg:px-0 text-5xl lg:text-7xl font-extralight">
       Some of my <strong>Notable Projects</strong>
     </p>
     <div class="my-10 gap-7 flex flex-wrap justify-center">
@@ -30,7 +30,7 @@ onMounted(()=>{
         :project="project"
       />
     </div>
-    <div class="text-center">
+    <div data-aos="fade" class="text-center mt-10">
       <a
         href="https://github.com/thejawadali?tab=repositories"
         target="_blank"

@@ -29,7 +29,7 @@ onMounted(() => {
     class="mt-32 lg:mx-32 relative flex flex-col items-end px-8 lg:px-0"
     id="about"
   >
-    <p class="text-primary text-5xl lg:text-7xl font-extralight w-full">
+    <p data-aos="fade-down" class="text-primary text-5xl lg:text-7xl font-extralight w-full">
       You can <strong>Contact me</strong> via
     </p>
     <div class="w-full hidden md:inline-block">
@@ -61,7 +61,7 @@ onMounted(() => {
         inline-block
       "
     >
-      <div class="my-3">
+      <div data-aos="zoom-in" class="my-3">
         <p class="uppercase text-xs text-gray-500 tracking-more-wide">email</p>
         <p class="my-1 text-sm text-gray-600">{{email}}</p>
       </div>

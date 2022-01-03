@@ -79,6 +79,14 @@
       "title": "Vue Weather"
     },
     {
+      "id": "0dbae6bf-12ca-4de5-801a-ddde2e744223",
+      "description": "Weather app is built with Vue.js and I used Open Weather Api to get weather data. You can search weather of any city in the world.",
+      "githubURL": "https://thejawadali.github.io/quiz",
+      "appURL":"",
+      "img": "./images/quiz.png",
+      "title": "Vue Weather"
+    },
+    {
       "id": "e46a060a-e04f-4db6-8831-8acecad9ee60",
       "description": "This simple game is built with Vanilla HTML, CSS and JavaScript. User have to guess the RGB color in the background in the given time.",
       "githubURL": "",

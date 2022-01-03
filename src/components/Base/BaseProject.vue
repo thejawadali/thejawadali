@@ -14,7 +14,7 @@ function goto(link: string) {
 
 
 <template>
-  <div class="w-96 h-72 shadow-2xl rounded inline-block overflow-hidden relative group">
+  <div data-aos="fade-up" class="w-96 h-72 shadow-2xl rounded inline-block overflow-hidden relative group">
     <img class="w-full h-full object-cover" :src="project.img" />
     <div class="absolute inset-0 bg-transparent z-30 scale-100">
       <!-- Overlay -->

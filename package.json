@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
+    "aos": "^2.3.4",
     "axios": "^0.20.0-0",
     "pinia": "^2.0.4",
     "vue": "^3.2.16",
@@ -15,6 +16,7 @@
     "vue3-carousel": "^0.1.35"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.4",
     "@types/axios": "^0.14.0",
     "@vitejs/plugin-vue": "^1.9.3",
     "autoprefixer": "^10.4.0",
