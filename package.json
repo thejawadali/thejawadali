@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "deploy": "pnpm build && pnpm gh-pages -d dist",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
   },
