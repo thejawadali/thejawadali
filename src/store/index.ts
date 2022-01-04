@@ -1,6 +1,6 @@
 import axios from "axios"
 import { defineStore } from 'pinia'
-const dbPath = import.meta.env.BASE_URL + "/db.json";
+const dbPath = "/db.json";
 export const store = defineStore({
   id: 'Store',
   state: () => ({
