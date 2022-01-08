@@ -63,6 +63,22 @@
   ],
   "projects": [
     {
+      "id": "177664dd-9d36-42fc-9a0e-e36e24ab519s",
+      "description": "This simplete",
+      "githubURL": "https://github.com/thejawadali/chat-room",
+      "appURL":"https://thejawadali.github.io/chat-room/",
+      "img": "./images/chat-room.png",
+      "title": "Chat Room"
+    },
+    {
+      "id": "177664dd-9d36-42fc-a0ss-e36e24ab519s",
+      "description": "This simplete",
+      "githubURL": "https://github.com/thejawadali/instagram-replica",
+      "appURL":"https://react-86446.firebaseapp.com/",
+      "img": "./images/insta.png",
+      "title": "Instagram"
+    },
+    {
       "id": "177664dd-9d36-42fc-9a0e-e36e24ab5d8a",
       "description": "This simple app is built with Vue.js and REST COUNTRIES to get countries data. In this application user can filter countries in any continent or by name.",
       "githubURL": "https://github.com/thejawadali/rest-countries",
