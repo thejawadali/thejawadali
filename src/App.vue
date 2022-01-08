@@ -17,9 +17,10 @@ import Skills from "./components/Skills.vue"
       right-0
       bg-secondary
       w-full
+      h-24
       lg:w-9/12
-      h-lg
-      rounded-b-large
+      lg:h-lg
+      rounded-b-2xl
       lg:rounded-none
       z-n
       opacity-20
