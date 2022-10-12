@@ -45,6 +45,10 @@
       "icon": "devicon-csharp-plain colored"
     },
     {
+      "id": "ddc8a835-99dd-456c-9e08-ba9e797a72a6",
+      "icon": "devicon-react-original colored"
+    },
+    {
       "id": "3c06c56d-9fa6-4887-b81a-0a917d247620",
       "icon": "devicon-vuejs-plain colored"
     },
@@ -63,12 +67,20 @@
   ],
   "projects": [
     {
-      "id": "177664dd-9d36-42fc-9a0e-e36e24ab519s",
+      "id": "177664dd-9d36-42fc-9a0e-e36e212b519s",
       "description": "This simplete",
       "githubURL": "https://github.com/thejawadali/chat-room",
       "appURL":"https://thejawadali.github.io/chat-room/",
       "img": "./images/chat-room.png",
       "title": "Chat Room"
+    },
+    {
+      "id": "177664dd-9d36-42fc-9a0e-e36e24ab519s",
+      "description": "This simplete",
+      "githubURL": "https://github.com/thejawadali/vue-answers",
+      "appURL":"https://vue-answer.netlify.app/questions",
+      "img": "./images/vue-answer.png",
+      "title": "Vue Answer"
     },
     {
       "id": "177664dd-9d36-42fc-a0ss-e36e24ab519s",
