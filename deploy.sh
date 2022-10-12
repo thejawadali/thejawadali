@@ -1,4 +1,4 @@
 #!/bin/bash
-pnpm build
+yarn build
 echo "thejawadali.com" > ./dist/CNAME
-pnpm gh-pages -d dist
+yarn gh-pages -d dist
