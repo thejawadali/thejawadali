@@ -1,7 +1,7 @@
 ### Hi there 👋, Nice to see you
 My name is Jawad Ali and I am a Full Stack Developer with 5 years of experience in developing web applications. I have a strong background in designing, coding, and deploying applications from the ground up. I have a strong understanding of object-oriented programming, design patterns, and software development life cycle processes. I have a passion for building solutions that are both user-friendly and reliable.
 
-##### Skills
+#### Skills
 - React
 - Vue
 - Next js
