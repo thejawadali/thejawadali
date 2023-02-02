@@ -1,7 +1,19 @@
 ### Hi there 👋, Nice to see you
-I'm Jawad Ali, full stack software engineer from Pakistan. I love to do awesome projects and always enjoy problem-solving. I work on both front and back end to develop user friendly apps. I also have experience in game developemnt. Enthusiastic to learn new things in my free time.
+My name is Jawad Ali and I am a Full Stack Developer with 5 years of experience in developing web applications. I have a strong background in designing, coding, and deploying applications from the ground up. I have a strong understanding of object-oriented programming, design patterns, and software development life cycle processes. I have a passion for building solutions that are both user-friendly and reliable.
 
-Skills: REACT JS / VUE JS  / NODE JS  / NEXT JS / NUXT JS JAVASCRIPT / TYPESCRIPT / TAILWINDCSS / VUETIFY / FIREBASE
+#### Skills
+- React
+- Vue
+- Next js
+- Nuxt js
+- Tailwindcss
+- Material UI
+- Vuetify
+- Node
+- Nest js
+- GraphQL
+- MySQL
+- MongoDB
 
 - 🌱 I’m currently learning UI/UX
 
